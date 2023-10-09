@@ -12,23 +12,28 @@
 body {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
 }
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 40px;
     min-height: 100vh;
     margin: auto;
 }
+
 
 .form-div {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     justify-content: center;
-    margin-top: 12px;
+    margin-top: 10%;
     max-width: 350px;
 }
 
@@ -86,12 +91,21 @@ main {
     margin-top: 10px;
 }
 
+.fg-pwd {
+    font-size: small;
+    color: #385185;
+
+}
+
 .sign-up {
-    text-align: center;
     border: 1px solid rgba(128, 128, 128, 0.3);
     padding: 20px;
     margin: 10px;
     box-sizing: border-box;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .get-app {
@@ -99,23 +113,38 @@ main {
     flex-direction: column;
     text-align: center;
     margin: 8px;
+    font-size: small;
+
 }
 
 .store {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 8px;
 
 }
 #play {
-    width: 135px;
-    height: 40px;
+    width: 130px;
+    height: 70px;
     border-radius: 8px;
 }
 
 #microsoft {
-    width: 135px;
+    width: 130px;
     border-radius: 8px;
     margin: 8px;
 
+}
+
+.footer .info-footer a {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .phoneimg {
+        display: none;
+    }
 }
