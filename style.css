@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+
+
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 5vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div form .instaLogo {
+    width: 175px;
+    margin: 20px 0;
+}
+
+.input {
+    width: 90%;
+    padding: .7rem;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+.login-btn {
+    width: 97%;
+    padding: .6rem;
+    font-weight: bold;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+
+#or {
+    margin: 20px 0;
+    color: rgba(128, 128, 128, 0.7);
+
+}
+
+#or:before, #or:after {
+    content: '-------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: 700;
+    font-size: 95%;
+    color: #385185;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.sign-up {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 8px;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+
+}
+#play {
+    width: 135px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#microsoft {
+    width: 135px;
+    border-radius: 8px;
+    margin: 8px;
+
+}
