@@ -2,4 +2,5 @@
 
  <h2>The beggining of a Instagram Log-In page clone</h2>
  
-![beginsta](https://github.com/lauradsc/Instagram-LogIn-clone/assets/99484087/4c0800a5-89ab-473b-bcb2-46e5ae61b2cf)
+![image](https://github.com/lauradsc/Instagram-LogIn-clone/assets/99484087/ea62da9a-836b-4aea-8192-d7228f418894)
+
