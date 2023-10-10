@@ -50,12 +50,28 @@ main {
     margin: 20px 0;
 }
 
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
 .input {
     width: 90%;
     padding: .7rem;
     border-radius: 3px;
     border: 1px solid rgba(128, 128, 128, 0.3);
     margin: 3px;
+}
+
+
+.bx-show, .bx-hide {
+    position: absolute;
+    right: 6%;
+    top: 35%;
+    cursor: pointer;
 }
 
 .login-btn {

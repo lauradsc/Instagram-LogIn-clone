@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insta Login | Lauradsc :D </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- favicon -->
     <link rel="icon" href="img/icons8-instagram-48.png" type="image/x-icon">
 
 </head>
@@ -15,22 +16,24 @@
 <body>
     <main>
         <img src="img/IG.jpeg" alt="" srcset="" class="phoneimg">
-
-        <div class="form-div">
-            <form action="">
-                <img src="img/instaLogo.png" class="instaLogo" alt="" srcset="">
-                <input type="text" class="input" placeholder="phone, number, username or email" required>
-                <input type="password" name="" id="" class="input" placeholder="password" required>
-                <button class="login-btn">Log In</button>
-                <p id="or">OR</p>
-                <a href="#" class="fb-login"><i class='bx bxl-facebook-square'></i>Log In With Facebook</a>
-                <a href="#" class="fg-pwd">Forgot password?</a>
-            </form>
-            <div class="sign-up">
-                <p class="sign-link">Don't have an account? <a href="#" class="sign-link">Sign Up</a></p>
-            </div>
-            <div class="get-app">
-                <p>Get the app</p>
+            <div class="form-div">
+                <form action="">
+                    <img src="img/instaLogo.png" class="instaLogo" alt="" srcset="">
+                        <input type="text" class="input" placeholder="phone, number, username or email" required>
+                        <div class="input-group"> 
+                        <input type="password" name="" id="pwd" class="input" placeholder="password" required>
+                        <i class='bx bx-show bx-hide' style='color:rgba(128,128,128,0.7)' onclick="toggle()" id="eye"></i>
+                        </div>
+                        <button class="login-btn">Log In</button>
+                        <p id="or">OR</p>
+                        <a href="#" class="fb-login"><i class='bx bxl-facebook-square'></i>Log In With Facebook</a>
+                        <a href="#" class="fg-pwd">Forgot password?</a>
+                </form>
+                <div class="sign-up">
+                    <p class="sign-link">Don't have an account? <a href="#" class="sign-link">Sign Up</a></p>
+                </div>
+                <div class="get-app">
+                    <p>Get the app</p>
                 <div class="store">
                     <img src="img/playStore.png" alt="" id="play">
                     <img src="img/getMicrosoft.png" alt="" srcset="" id="microsoft">
@@ -40,35 +43,39 @@
     </main>
 
     <footer class="row">
-            <a href="#">Meta</a>            
-            <a href="#">About</a>
-            <a href="#">Blogs</a>
-            <a href="#">Jobs</a>
-            <a href="#">Help</a>
-            <a href="#">API</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Locations</a>
-            <a href="#">Instagram Lite</a>
-            <a href="#">Threads</a>
-            <a href="#">Contact Uploading & Non-Users</a>
-            <a href="#">Meta Verified</a>
+        <a href="#">Meta</a>
+        <a href="#">About</a>
+        <a href="#">Blogs</a>
+        <a href="#">Jobs</a>
+        <a href="#">Help</a>
+        <a href="#">API</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Locations</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Threads</a>
+        <a href="#">Contact Uploading & Non-Users</a>
+        <a href="#">Meta Verified</a>
     </footer>
     <footer class="row-2">
         <div id="google_translate_element"></div>
         <div class="copyright">
             <p> &copy; 2023 Instagram from Meta</p>
-
         </div>
     </footer>
 </body>
 
-<div id="google_translate_element"></div>
+<script src="js/script.js"></script> 
 
+<!-- arquivo javascripr externo da URL. O arquivo JS é fornecido pelo Google e é usado para ativar o widget de tradução -->
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<script type="text/javascript">
+
+<!-- função padrão definida para inicializar o widget de tradução -->
+<script>
     function googleTranslateElementInit() {
-      new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        new google.translate.TranslateElement({
+            pageLanguage: 'en'
+        }, 'google_translate_element');
     }
-  </script>
+</script>
 </html>
