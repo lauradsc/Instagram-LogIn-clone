@@ -1,6 +1,18 @@
+import  CheckFields from './CheckFields.js';
+
+const submitForm = document.getElementById("submit");
+
+submitForm.addEventListener("click", (e) => {
+    e.preventDefault();
+    const user = document.getElementById("user").value;
+    const pwdValue = document.getElementById("pwd").value;
+    CheckFields.check(user, pwdValue);
+})
+
+
 // código para habilitar o Show/Hide password
-var pwd = document.getElementById("pwd");
-var eyeIcon = document.getElementById("eye");
+const pwd = document.getElementById("pwd");
+const eyeIcon = document.getElementById("eye");
 
 function toggle() {
 
@@ -15,11 +27,10 @@ function toggle() {
 
 };
 
-var user = document.getElementById("user").value;
-var pwdValue = document.getElementById("pwd").value;
 
-function checkFields() {
-    user && pwdValue === null ? alert("please, fullfill the fields") : alert("welcome back!");
-}
 
-checkFields();
+
+
+ 
+
+

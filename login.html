@@ -18,12 +18,12 @@
         <div class="form-div">
             <form action="">
                 <img src="src/img/instaLogo.png" class="instaLogo" alt="" srcset="">
-                <input type="text" class="input" placeholder="phone, number, username or email" id="user" required>
+                <input type="text" class="input" placeholder="phone, number, username or email" id="user">
                 <div class="input-group">
-                    <input type="password" name="" id="pwd" class="input" placeholder="password" required>
+                    <input type="password" name="" id="pwd" class="input" placeholder="password">
                     <i class='bx bx-show bx-hide' style='color:rgba(128,128,128,0.7)' onclick="toggle()" id="eye"></i>
                 </div>
-                <button class="login-btn">Log In</button>
+                <button type="submit" id="submit" class="login-btn">Log In</button>
                 <p id="or">OR</p>
                     <a href="#" class="fb-login"><i class="bx bxl-facebook-square"></i>Log In With Facebook</a>
                 <a href="#" class="fg-pwd">Forgot password?</a>
@@ -65,7 +65,7 @@
     </footer>
 </body>
 
-<script src="src/js/script.js"></script>
+<script src="src/js/script.js" type="module"></script>
 
 <!-- arquivo javascript externo da URL. O arquivo JS é fornecido pelo Google e é usado para ativar o widget de tradução -->
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
