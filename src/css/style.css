@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* css file */
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 6%;
+    max-width: 350px;
+}
+
+
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 5vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div form .instaLogo {
+    width: 175px;
+    margin: 20px 0;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+
+.input {
+    width: 90%;
+    padding: .7rem;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+
+.bx-show, .bx-hide {
+    position: absolute;
+    right: 6%;
+    top: 0.90em;
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 97%;
+    padding: .6rem;
+    font-weight: bold;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+#or {
+    margin: 20px 0;
+    color: rgba(128, 128, 128, 0.7);
+
+}
+
+#or:before, #or:after {
+    content: '-------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: bold;
+    color: #385185;
+    margin-top: 10px;
+    display: inline-block;
+    align-items: center;
+    font-size: small;
+}
+
+
+.bxl-facebook-square {
+    margin-right: 8px;
+    font-size: 150%;
+    vertical-align: middle;
+
+
+ }
+
+.fg-pwd {
+    font-size: small;
+    color: #385185;
+    margin-top: 20px;
+
+}
+
+.sign-up {
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.sign-in {
+    width: 100%;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 8px;
+    font-size: small;
+
+}
+
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+
+}
+
+#play {
+    width: 130px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+#microsoft {
+    width: 130px;
+    border-radius: 8px;
+    margin: 8px;
+
+}
+
+.row {
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    width: 100%;
+    margin-top: 2%;
+
+}
+
+.row a {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    color: rgba(128, 128, 128, 0.7);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.row-2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: -15px;
+}
+
+.footer-group {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+}
+
+.row-2 select {
+    border: none;
+    color: rgba(128, 128, 128, 0.7);
+    padding: 7px;
+
+}
+
+.row-2 .copyright {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    color: rgba(128, 128, 128, 0.7);
+}
+
+@media screen and (max-width: 800px) {
+    .phoneimg {
+        display: none;
+    }
+}
