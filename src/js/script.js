@@ -1,36 +1,15 @@
-import  CheckFields from './CheckFields.js';
-
-const submitForm = document.getElementById("submit");
-
-submitForm.addEventListener("click", (e) => {
-    e.preventDefault();
-    const user = document.getElementById("user").value;
-    const pwdValue = document.getElementById("pwd").value;
-    CheckFields.check(user, pwdValue);
-})
-
-
-// código para habilitar o Show/Hide password
-const pwd = document.getElementById("pwd");
-const eyeIcon = document.getElementById("eye");
+// code for Show/Hide password
+let inputPassword = document.getElementById("inputPassword");
+let eyeIcon = document.getElementById("eye");
 
 function toggle() {
-
-    if(pwd.type === "password") {
-        pwd.type = "text";
+    if(inputPassword.type === "password") {
+        inputPassword.type = "text";
         eyeIcon.classList.replace("bx-show", "bx-hide");
     } 
     else {
-        pwd.type = "password";
+        inputPassword.type = "password";
         eyeIcon.classList.replace("bx-hide", "bx-show");
     }
 
 };
-
-
-
-
-
- 
-
-

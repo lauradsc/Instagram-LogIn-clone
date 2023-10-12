@@ -73,6 +73,7 @@ main {
     right: 6%;
     top: 0.90em;
     cursor: pointer;
+    color:rgba(128,128,128,0.7);
 }
 
 .login-btn {
@@ -127,12 +128,11 @@ main {
 .sign-up {
     border: 1px solid rgba(128, 128, 128, 0.3);
     padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
     font-size: small;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 
 }
 
@@ -154,7 +154,6 @@ main {
     align-items: center;
     justify-content: center;
     margin: 8px;
-
 }
 
 #play {
@@ -175,7 +174,6 @@ main {
     padding: 0.6% 0%;
     width: 100%;
     margin-top: 2%;
-
 }
 
 .row a {
